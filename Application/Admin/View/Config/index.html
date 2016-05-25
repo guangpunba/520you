@@ -1,0 +1,70 @@
+{include file="Common/header" /} 
+
+<div class="am-cf admin-main">
+  {include file="Common/left" /} 
+
+  <!-- content start -->
+  <div class="admin-content">
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          <h2 class="am-text-default am-margin-top"><span class="am-icon-user"></span> 网站配置 -- 系统信息</h2>
+          <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
+        </div>
+      </div>
+      <div class="am-g">
+        <div class="am-u-sm-12">
+            <table class="am-table am-table-bordered">
+
+              <tr>
+                <td class="am-u-sm-3">服务器操作系统</td>
+                <td class="am-u-sm-9">{$system}</td>
+              </tr>
+              <tr>
+                <td class="am-u-sm-3">运行环境</td>
+                <td class="am-u-sm-9">{$environment}</td>
+              </tr>
+              <tr>
+                <td class="am-u-sm-3">PHP版本</td>
+                <td class="am-u-sm-9">{$php_version}</td>
+              </tr>
+              <tr>
+                <td class="am-u-sm-3">ThinkPHP版本</td>
+                <td class="am-u-sm-9">{$tp_version}</td>
+              </tr>
+              <tr>
+                <td class="am-u-sm-3">MYSQL版本</td>
+                <td class="am-u-sm-9">{$mysql_version}</td>
+              </tr>
+              <tr>
+                <td class="am-u-sm-3">上传限制</td>
+                <td class="am-u-sm-9">{$maxupload}</td>
+              </tr>
+              
+            </table>
+        </div>
+      </div>
+  </div>  
+  <!-- content end -->
+
+</div>
+
+<a href="#" class="am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}">
+  <span class="am-icon-btn am-icon-th-list"></span>
+</a>
+{include file="Common/footer" /} 
+
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!-- [if (gte IE 9)|!(IE)]>>
+<script src="__JS__/libs/jquery.min.js"></script>
+<![endif] -->
+<script type="text/javascript" src="__JS__/libs/require_config.js"></script>
+<script type="text/javascript" data-main='__JS__/admin-main.js' src="__JS__/libs/require.js"></script>
+
+</body>
+</html>

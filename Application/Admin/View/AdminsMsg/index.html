@@ -1,0 +1,67 @@
+{include file="Common/header" /} 
+
+<div class="am-cf admin-main">
+  {include file="Common/left" /} 
+
+  <!-- content start -->
+  <div class="admin-content">
+      <div class="am-g">
+          <div class="am-u-sm-12">
+            <h2 class="am-text-default am-margin-top"><span class="am-icon-envelope"></span> 管理员消息推送</h2>
+            <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
+          </div>
+      </div>
+      {// groupid == 1 超级管理员 }
+      {if condition="$Think.session.groupid eq 1 "} 
+      <div class="am-g am-margin-bottom">
+        <div class="am-u-sm-12">
+          <a href="{:U('AdminsMsg/addMsg')}" class="am-btn am-btn-default"><span class="am-icon-plus"></span> 添加消息</a>
+        </div>
+      </div>
+      {/if}
+    
+      <div class="am-g">
+          <div class="am-u-sm-12">
+              <table class="am-table am-table-bd am-table-striped admin-content-table">
+                  <thead>
+                      <tr>
+                        <th>序号{$time}</th><th>标题</th><th>发送时间</th><th>推送人</th>
+                        {if condition="$Think.session.groupid eq 1 "}<th>推送对象</th>{/if}
+                      </tr>
+                  </thead>
+                  <tbody>
+                      {volist name='list' id='vo' key='k'}
+                      <tr data-id='{$vo.id}'>
+                        <td>{$k}</td>
+                        <td>
+                          {if condition="$vo.read eq 1"}
+                          <span class="am-icon-envelope am-text-warning"></span>
+                          {/if}
+                          <a href="{:U('AdminsMsg/details',array('mid' => $vo['mid']))}" class="am-btn-link">{$vo.title}</a>
+                        </td>
+                        <td>{$vo.createtime|date="Y-m-d H:i:s",###}</td>
+                        <td><a href="#">{$vo.createby}</a></td> 
+                        {if condition="$Think.session.groupid eq 1 "}<td><a href="#">{$vo.groupname}</a></td> {/if}
+                      </tr>
+                      {/volist}
+                  </tbody>
+              </table>
+          </div>
+      </div>
+
+  </div>
+  <!-- content end -->
+
+</div>
+
+<a href="#" class="am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}">
+  <span class="am-icon-btn am-icon-th-list"></span>
+</a>
+{include file="Common/footer" /} 
+
+
+<script type="text/javascript" src="__JS__/libs/require_config.js"></script>
+<script type="text/javascript" data-main='__JS__/AdminsMsg-main.js' src="__JS__/libs/require.js"></script>
+
+</body>
+</html>

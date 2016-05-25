@@ -1,0 +1,1 @@
+require(["jquery","layer","amazeui","account"],function(a,e){e.config({path:jsUrl+"/libs/layer/"})});

@@ -1,0 +1,1588 @@
+[ 2016-04-22T13:08:32+08:00 ] ::1 /520you/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T13:08:37+08:00 ] ::1 /520you/index.php/Admin/Login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `gp_master` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' AND `status` = 1 LIMIT 1   [ RunTime:0.0330s ]
+
+[ 2016-04-22T13:08:37+08:00 ] ::1 /520you/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T13:08:39+08:00 ] ::1 /520you/Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\520you\Application\Admin\Controller\ConfigController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T13:14:38+08:00 ] ::1 /520you/Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\520you\Application\Admin\Controller\ConfigController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T14:45:11+08:00 ] ::1 /520you/Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\520you\Application\Admin\Controller\ConfigController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:22:50+08:00 ] ::1 /520you/Admin/Config/admin-help.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:admin-help
+
+[ 2016-04-22T15:22:52+08:00 ] ::1 /520you/Admin/Admins/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T15:22:55+08:00 ] ::1 /520you/index.php/Admin/Admins/delAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: UPDATE `gp_master` SET `status`='0' WHERE `id` = 27 [ RunTime:0.1110s ]
+
+[ 2016-04-22T15:22:57+08:00 ] ::1 /520you/Admin/Admins/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:23:34+08:00 ] ::1 /520you/Admin/Admins/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-22T15:23:37+08:00 ] ::1 /520you/index.php/Admin/Admins/delAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: UPDATE `gp_master` SET `status`='0' WHERE `id` = 28 [ RunTime:0.0360s ]
+
+[ 2016-04-22T15:23:39+08:00 ] ::1 /520you/Admin/Admins/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T15:25:12+08:00 ] ::1 /520you/Admin/Admins/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:25:15+08:00 ] ::1 /520you/index.php/Admin/Admins/delAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0040s ]
+SQL: UPDATE `gp_master` SET `status`='0' WHERE `id` = 25 [ RunTime:0.0460s ]
+
+[ 2016-04-22T15:25:17+08:00 ] ::1 /520you/Admin/Admins/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:25:22+08:00 ] ::1 /520you/Admin/Admins/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:25:26+08:00 ] ::1 /520you/index.php/Admin/Admins/delAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: UPDATE `gp_master` SET `status`='0' WHERE `id` = 27 [ RunTime:0.0450s ]
+
+[ 2016-04-22T15:25:28+08:00 ] ::1 /520you/Admin/Admins/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-22T15:26:48+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:26:54+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '342424242' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: INSERT INTO `gp_master` (`username`,`password`,`groupid`,`original`,`createdate`) VALUES ('342424242','4297f44b13955235245b2497399d7a93','1','123123','1461310014') [ RunTime:0.0660s ]
+
+[ 2016-04-22T15:26:56+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:27:13+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:27:17+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '34324234324' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: INSERT INTO `gp_master` (`username`,`password`,`groupid`,`original`,`createdate`) VALUES ('34324234324','4297f44b13955235245b2497399d7a93','1','123123','1461310037') [ RunTime:0.0540s ]
+
+[ 2016-04-22T15:27:19+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:28:24+08:00 ] ::1 /520you/index.php/Admin/Admins/admin-index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:admin-index
+
+[ 2016-04-22T15:28:27+08:00 ] ::1 /520you/Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\520you\Application\Admin\Controller\ConfigController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:28:45+08:00 ] ::1 /520you/Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wamp\www\520you\Application\Admin\Controller\ConfigController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:28:46+08:00 ] ::1 /520you/Admin/Admins/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:28:47+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T15:28:51+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '35435353' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+
+[ 2016-04-22T15:28:53+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '35435353' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+
+[ 2016-04-22T15:29:00+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '35435353' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: INSERT INTO `gp_master` (`username`,`password`,`groupid`,`original`,`createdate`) VALUES ('35435353','96e79218965eb72c92a549dd5a330112','1','111111','1461310140') [ RunTime:0.0370s ]
+
+[ 2016-04-22T15:29:02+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:31:35+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-22T15:31:40+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '22213123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: INSERT INTO `gp_master` (`username`,`password`,`groupid`,`original`,`createdate`) VALUES ('22213123','4297f44b13955235245b2497399d7a93','1','123123','1461310300') [ RunTime:0.0430s ]
+
+[ 2016-04-22T15:31:42+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T15:31:59+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:32:07+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:32:07+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T15:32:16+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:32:17+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T15:32:24+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '12312311' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: INSERT INTO `gp_master` (`username`,`password`,`groupid`,`original`,`createdate`) VALUES ('12312311','96e79218965eb72c92a549dd5a330112','1','111111','1461310344') [ RunTime:0.0400s ]
+
+[ 2016-04-22T15:32:38+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:32:53+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '33113131a' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: INSERT INTO `gp_master` (`username`,`password`,`groupid`,`original`,`createdate`) VALUES ('33113131a','96e79218965eb72c92a549dd5a330112','1','111111','1461310373') [ RunTime:0.0470s ]
+
+[ 2016-04-22T15:33:12+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:33:18+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0010s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '12312313f' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: INSERT INTO `gp_master` (`username`,`password`,`groupid`,`original`,`createdate`) VALUES ('12312313f','96e79218965eb72c92a549dd5a330112','1','111111','1461310398') [ RunTime:0.0440s ]
+
+[ 2016-04-22T15:34:01+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T15:34:07+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '13123s' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: INSERT INTO `gp_master` (`username`,`password`,`groupid`,`original`,`createdate`) VALUES ('13123s','96e79218965eb72c92a549dd5a330112','1','111111','1461310447') [ RunTime:0.0510s ]
+
+[ 2016-04-22T15:36:07+08:00 ] ::1 /520you/Admin/Admins/addAccount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: title E:\wamp\www\520you\Application\Runtime\Cache\Admin\7f759776859b4d54b6b33632e627c56c.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-22T15:36:12+08:00 ] ::1 /520you/index.php/Admin/Admins/addAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gp_groupmanager` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `gp_groupmanager`  [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: SELECT * FROM `gp_master` WHERE `username` = '24234234gdgf' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+NOTIC: [2] strpos() expects parameter 1 to be string, array given E:\wamp\www\520you\ThinkPHP\Library\Think\Model.class.php 第 1196 行.
+SQL: INSERT INTO `gp_master` (`username`,`password`,`groupid`,`original`,`createdate`) VALUES ('24234234gdgf','4297f44b13955235245b2497399d7a93','1','123123','1461310572') [ RunTime:0.0470s ]
+
+[ 2016-04-22T15:36:14+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T15:36:22+08:00 ] ::1 /520you/index.php/Admin/Admins/delAccount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+SQL: UPDATE `gp_master` SET `status`='0' WHERE `id` = 28 [ RunTime:0.0520s ]
+
+[ 2016-04-22T15:36:24+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T15:36:47+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T16:41:50+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T16:41:53+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0250s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-22T16:42:00+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T16:42:22+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T16:42:49+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-22T16:42:56+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0040s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-22T16:43:31+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-22T16:43:42+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-22T16:43:46+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-22T16:43:49+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-22T17:27:02+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T17:27:03+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T17:27:07+08:00 ] ::1 /520you/index.php/Admin/Admins/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gp_master` [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant username - assumed 'username' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant groupname - assumed 'groupname' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant createdate - assumed 'createdate' E:\wamp\www\520you\Application\Admin\Model\AdminsModel.class.php 第 21 行.
+SQL: SELECT `id`,`username`,`groupname`,`createdate` FROM `gp_master` INNER JOIN gp_groupmanager On gp_groupmanager.groupid=gp_master.groupid  WHERE `status` = 1 ORDER BY groupname desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

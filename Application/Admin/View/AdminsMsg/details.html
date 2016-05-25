@@ -1,0 +1,37 @@
+{include file="Common/header" /} 
+
+<div class="am-cf admin-main">
+  {include file="Common/left" /} 
+
+  <!-- content start -->
+  <div class="admin-content">
+      <div class="am-g">
+          <div class="am-u-sm-12 am-text-center am-text-lg">
+            <h2 class="am-margin-top">{$info.title}</h2>
+            <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
+          </div>
+      </div>
+      
+    
+      <div class="am-g">
+          <div class="am-u-sm-8 am-u-lg-centered">
+              {$info.content}
+          </div>
+      </div>
+
+  </div>
+  <!-- content end -->
+
+</div>
+
+<a href="#" class="am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}">
+  <span class="am-icon-btn am-icon-th-list"></span>
+</a>
+{include file="Common/footer" /} 
+
+
+<script type="text/javascript" src="__JS__/libs/require_config.js"></script>
+<script type="text/javascript" data-main='__JS__/AdminsMsg-main.js' src="__JS__/libs/require.js"></script>
+
+</body>
+</html>

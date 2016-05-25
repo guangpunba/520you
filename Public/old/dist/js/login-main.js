@@ -1,0 +1,1 @@
+require(["getPsw","dologin","amazeui"],function(e){e()});

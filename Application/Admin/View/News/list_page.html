@@ -1,0 +1,52 @@
+{empty  name="list"}
+<div align="center" style="padding:20px 0; font-size:18px;">暂无数据</div>
+{else /}
+
+<table class="am-table am-table-bd am-table-striped admin-content-table">
+    <thead>
+        <tr>
+          <th>序号</th>
+          <th>标题</th>
+          <th>所属分类</th>
+          <th>创建时间</th>
+          <th>是否推荐</th>
+          <th>浏览量</th>
+          <th>管理</th>
+          
+        </tr>
+    </thead>
+    <tbody>
+
+        {volist name='list' id='vo' key='k'}
+        <tr data-id='{$vo.newsid}'>
+          <td>{$k}</td>
+          <td>{$vo.title}</td>
+          <td>{$vo.typename}</td> 
+          <td>{$vo.createdate}</td>
+          <td>
+            {eq name='vo.recommended' value='1'}<span class="am-badge am-badge-danger">推荐</span>{/eq}
+            {eq name='vo.recommended' value='0'}<span class="am-badge">不推荐</span>{/eq}
+          </td>
+          <td>{$vo.views}</td>
+          <td>
+            <div class="am-dropdown" data-am-dropdown>
+              <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+              <ul class="am-dropdown-content">
+                <li><a href="{:U('News/editNews',array('id'=>$vo['newsid']))}" >1. 编辑</a></li>
+
+                <li><a href="javascript:;" class='delbtn'>2. 删除</a></li>
+              </ul>
+            </div>
+          </td>
+        
+        </tr>
+        {/volist}
+    </tbody>
+</table>
+
+  <!-- 分页 start-->
+  <div class="dataTables_paginate paging_full_numbers" id="ajaxPage">
+      <span>{$page}</span>
+    </div>
+  <!-- 分页 end -->
+{/empty }

@@ -1,0 +1,1 @@
+define(["push","amazeui"],function(){});

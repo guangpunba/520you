@@ -1,0 +1,1 @@
+var path=document.location.pathname;path.indexOf("index")>0&&require(["getAjaxList","search"],function(n){n(_APP+"/News/getNewsList")}),require(["common","news"],function(){$(document).on("click",".am-dropdown",function(){$(this).dropdown("open")}),require(["loadueditor"],function(){})});

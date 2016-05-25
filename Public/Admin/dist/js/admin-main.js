@@ -1,0 +1,1 @@
+require(["layer","common","account"],function(c){c.config({path:jsUrl+"/libs/layer/"})});
