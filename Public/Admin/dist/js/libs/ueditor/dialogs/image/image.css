@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* dialog样式 */
 .wrapper {
     zoom: 1;
     width: 630px;
@@ -10,8 +9,6 @@
     position: relative;
     font-family: sans-serif;
 }
-
-/*tab样式框大小*/
 .tabhead {
     float:left;
 }
@@ -21,7 +18,6 @@
     position: relative;
     clear: both;
 }
-
 .tabbody .panel {
     position: absolute;
     width: 0;
@@ -30,26 +26,21 @@
     overflow: hidden;
     display: none;
 }
-
 .tabbody .panel.focus {
     width: 100%;
     height: 346px;
     display: block;
 }
-
-/* 图片对齐方式 */
 .alignBar{
     float:right;
     margin-top: 5px;
     position: relative;
 }
-
 .alignBar .algnLabel{
     float:left;
     height: 20px;
     line-height: 20px;
 }
-
 .alignBar #alignIcon{
     zoom:1;
     _display: inline;
@@ -90,15 +81,9 @@
 .alignBar #alignIcon .center-align.focus{
     background-position: -60px 0;
 }
-
-
-
-
-/* 远程图片样式 */
 #remote {
     z-index: 200;
 }
-
 #remote .top{
     width: 100%;
     margin-top: 25px;
@@ -120,7 +105,6 @@
     clear: both;
     height: 40px;
 }
-
 #remote .row label{
     text-align: center;
     width: 50px;
@@ -131,9 +115,7 @@
 }
 #remote .row label.algnLabel{
     float: left;
-
 }
-
 #remote input.text{
     width: 150px;
     padding: 3px 6px;
@@ -191,8 +173,6 @@
     background-color: #eee;
     overflow: hidden;
 }
-
-/* 上传图片 */
 .tabbody #upload.panel {
     width: 0;
     height: 0;
@@ -202,14 +182,12 @@
     background: #fff;
     display: block;
 }
-
 .tabbody #upload.panel.focus {
     width: 100%;
     height: 346px;
     display: block;
     clip: auto;
 }
-
 #upload .queueList {
     margin: 0;
     width: 100%;
@@ -217,11 +195,9 @@
     position: absolute;
     overflow: hidden;
 }
-
 #upload p {
     margin: 0;
 }
-
 .element-invisible {
     width: 0 !important;
     height: 0 !important;
@@ -232,7 +208,6 @@
     position: absolute !important;
     clip: rect(1px, 1px, 1px, 1px);
 }
-
 #upload .placeholder {
     margin: 10px;
     border: 2px dashed #e6e6e6;
@@ -247,7 +222,6 @@
     top:0;
     *top: 10px;
 }
-
 #upload .placeholder .webuploader-pick {
     font-size: 18px;
     background: #00b7ee;
@@ -261,16 +235,12 @@
     cursor: pointer;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-
 #upload .placeholder .webuploader-pick-hover {
     background: #00a2d4;
 }
-
-
 #filePickerContainer {
     text-align: center;
 }
-
 #upload .placeholder .flashTip {
     color: #666666;
     font-size: 12px;
@@ -279,20 +249,16 @@
     text-align: center;
     bottom: 20px;
 }
-
 #upload .placeholder .flashTip a {
     color: #0785d1;
     text-decoration: none;
 }
-
 #upload .placeholder .flashTip a:hover {
     text-decoration: underline;
 }
-
 #upload .placeholder.webuploader-dnd-over {
     border-color: #999999;
 }
-
 #upload .filelist {
     list-style: none;
     margin: 0;
@@ -302,7 +268,6 @@
     position: relative;
     height: 300px;
 }
-
 #upload .filelist:after {
     content: '';
     display: block;
@@ -312,7 +277,6 @@
     clear: both;
     position: relative;
 }
-
 #upload .filelist li {
     width: 113px;
     height: 113px;
@@ -326,12 +290,10 @@
     overflow: hidden;
     font-size: 12px;
 }
-
 #upload .filelist li p.log {
     position: relative;
     top: -45px;
 }
-
 #upload .filelist li p.title {
     position: absolute;
     top: 0;
@@ -344,7 +306,6 @@
     text-indent: 5px;
     text-align: left;
 }
-
 #upload .filelist li p.progress {
     position: absolute;
     width: 100%;
@@ -358,29 +319,24 @@
     background: none;
     -webkit-box-shadow: 0 0 0;
 }
-
 #upload .filelist li p.progress span {
     display: none;
     overflow: hidden;
     width: 0;
     height: 100%;
     background: #1483d8 url(./images/progress.png) repeat-x;
-
     -webit-transition: width 200ms linear;
     -moz-transition: width 200ms linear;
     -o-transition: width 200ms linear;
     -ms-transition: width 200ms linear;
     transition: width 200ms linear;
-
     -webkit-animation: progressmove 2s linear infinite;
     -moz-animation: progressmove 2s linear infinite;
     -o-animation: progressmove 2s linear infinite;
     -ms-animation: progressmove 2s linear infinite;
     animation: progressmove 2s linear infinite;
-
     -webkit-transform: translateZ(0);
 }
-
 @-webkit-keyframes progressmove {
     0% {
         background-position: 0 0;
@@ -389,7 +345,6 @@
         background-position: 17px 0;
     }
 }
-
 @-moz-keyframes progressmove {
     0% {
         background-position: 0 0;
@@ -398,7 +353,6 @@
         background-position: 17px 0;
     }
 }
-
 @keyframes progressmove {
     0% {
         background-position: 0 0;
@@ -407,7 +361,6 @@
         background-position: 17px 0;
     }
 }
-
 #upload .filelist li p.imgWrap {
     position: relative;
     z-index: 2;
@@ -416,24 +369,20 @@
     overflow: hidden;
     width: 113px;
     height: 113px;
-
     -webkit-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-
     -webit-transition: 200ms ease-out;
     -moz-transition: 200ms ease-out;
     -o-transition: 200ms ease-out;
     -ms-transition: 200ms ease-out;
     transition: 200ms ease-out;
 }
-
 #upload .filelist li img {
     width: 100%;
 }
-
 #upload .filelist li p.error {
     background: #f43838;
     color: #fff;
@@ -446,7 +395,6 @@
     z-index: 100;
     display:none;
 }
-
 #upload .filelist li .success {
     display: block;
     position: absolute;
@@ -458,7 +406,6 @@
     background: url(./images/success.png) no-repeat right bottom;
     background: url(./images/success.gif) no-repeat right bottom \9;
 }
-
 #upload .filelist li.filePickerBlock {
     width: 113px;
     height: 113px;
@@ -475,7 +422,6 @@
     background: none;
     font-size: 0;
 }
-
 #upload .filelist div.file-panel {
     position: absolute;
     height: 0;
@@ -487,7 +433,6 @@
     overflow: hidden;
     z-index: 300;
 }
-
 #upload .filelist div.file-panel span {
     width: 24px;
     height: 24px;
@@ -505,33 +450,26 @@
     -ms-user-select: none;
     user-select: none;
 }
-
 #upload .filelist div.file-panel span.rotateLeft {
     display:none;
     background-position: 0 -24px;
 }
-
 #upload .filelist div.file-panel span.rotateLeft:hover {
     background-position: 0 0;
 }
-
 #upload .filelist div.file-panel span.rotateRight {
     display:none;
     background-position: -24px -24px;
 }
-
 #upload .filelist div.file-panel span.rotateRight:hover {
     background-position: -24px 0;
 }
-
 #upload .filelist div.file-panel span.cancel {
     background-position: -48px -24px;
 }
-
 #upload .filelist div.file-panel span.cancel:hover {
     background-position: -48px 0;
 }
-
 #upload .statusBar {
     height: 45px;
     border-bottom: 1px solid #dadada;
@@ -541,7 +479,6 @@
     vertical-align: middle;
     position: relative;
 }
-
 #upload .statusBar .progress {
     border: 1px solid #1483d8;
     width: 198px;
@@ -567,20 +504,17 @@
     position: relative;
     z-index: 10;
 }
-
 #upload .statusBar .info {
     display: inline-block;
     font-size: 14px;
     color: #666666;
 }
-
 #upload .statusBar .btns {
     position: absolute;
     top: 7px;
     right: 0;
     line-height: 30px;
 }
-
 #filePickerBtn {
     display: inline-block;
     float: left;
@@ -610,7 +544,6 @@
 #upload .statusBar .btns .uploadBtn.state-paused:hover {
     background: #f0f0f0;
 }
-
 #upload .statusBar .btns .uploadBtn,
 #upload .statusBar .btns .uploadBtn.state-paused{
     background: #00b7ee;
@@ -621,7 +554,6 @@
 #upload .statusBar .btns .uploadBtn.state-paused:hover{
     background: #00a2d4;
 }
-
 #upload .statusBar .btns .uploadBtn.disabled {
     pointer-events: none;
     filter:alpha(opacity=60);
@@ -629,10 +561,6 @@
     -khtml-opacity: 0.6;
     opacity: 0.6;
 }
-
-
-
-/* 图片管理样式 */
 #online {
     width: 100%;
     height: 336px;
@@ -704,16 +632,12 @@
     border: 3px solid #1094fa;
     background-position: 72px 72px;
 }
-
-
-/* 图片搜索样式 */
 #search .searchBar {
     width: 100%;
     height: 30px;
     margin: 10px 0 5px 0;
     padding: 0;
 }
-
 #search input.text{
     width: 150px;
     padding: 3px 6px;
@@ -746,7 +670,6 @@
     float: left;
     dislay: block;
 }
-
 #search .searchType {
     width: 65px;
     height: 28px;
@@ -759,7 +682,6 @@
     float: left;
     dislay: block;
 }
-
 #search #searchBtn,
 #search #searchReset {
     display: inline-block;
@@ -782,7 +704,6 @@
     vertical-align: top;
     float: right;
 }
-
 #search #searchBtn {
     color: white;
     border-color: #285e8e;
@@ -799,11 +720,9 @@
 #search #searchReset:hover {
     background-color: #eee;
 }
-
 #search .msg {
     margin-left: 5px;
 }
-
 #search .searchList{
     width: 100%;
     height: 300px;
@@ -822,7 +741,6 @@
     zoom: 1;
     position: relative;
 }
-
 #search .searchList li {
     list-style:none;
     float: left;
@@ -845,14 +763,12 @@
     opacity: 1;
     border: 2px solid #eee;
 }
-
 #search .searchList li.selected {
     filter: alpha(Opacity=40);
     -moz-opacity: 0.4;
     opacity: 0.4;
     border: 2px solid #00a0e9;
 }
-
 #search .searchList li p {
     background-color: #eee;
     margin: 0;
@@ -862,12 +778,10 @@
     height:115px;
     overflow: hidden;
 }
-
 #search .searchList li p img {
     cursor: pointer;
     border: 0;
 }
-
 #search .searchList li a {
     color: #999;
     border-top: 1px solid #F2F2F2;
@@ -884,7 +798,6 @@
     overflow: hidden;
     word-break: break-all;
 }
-
 #search .searchList a:hover {
     text-decoration: underline;
     color: #333;

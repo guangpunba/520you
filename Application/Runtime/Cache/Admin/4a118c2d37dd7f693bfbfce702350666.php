@@ -30,9 +30,8 @@
             <div class="am-dropdown" data-am-dropdown>
               <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
               <ul class="am-dropdown-content">
-                <li><a href="<?php echo U('News/editNews',array('id'=>$vo['newsid']));?>" >1. 编辑</a></li>
-
-                <li><a href="javascript:;" class='delbtn'>2. 删除</a></li>
+                  <li><a href="<?php echo U('News/editNews',array('id'=>$vo['newsid']));?>" >1. 编辑</a></li>
+                  <li><a href="javascript:;" class='delbtn'>2. 删除</a></li>
               </ul>
             </div>
           </td>

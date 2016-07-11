@@ -4,7 +4,11 @@
 /* 添加账号模块 */
 
 define(['layer'],function(layer){
-    
+    //加载layer样式表
+    layer.config({
+        path: jsUrl+'/libs/layer/'
+
+    });
     var sendAjax = function(url,formData,$btn){
         $.ajax({
             url : url, 

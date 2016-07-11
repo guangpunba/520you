@@ -1,1 +1,1 @@
-define(["jquery"],function(n){var e=function(e,t){n.ajax({url:e,data:t,type:"POST",beforeSend:function(){n("#listInfo").empty(),n("#loading").show()},complete:function(){n("#loading").hide()},success:function(e){n("#listInfo").html(e)}})};return e});
+define(["jquery"],function(e){var t=function(t,n){e.ajax({url:t,data:n,type:"POST",beforeSend:function(t){e("#listInfo").empty(),e("#loading").show()},complete:function(t){e("#loading").hide()},success:function(t){e("#listInfo").html(t)}})};return t});

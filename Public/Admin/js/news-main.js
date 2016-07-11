@@ -10,18 +10,15 @@ if(path.indexOf('index') > 0){
     })
 }
 
-require(['common','news'],function(){
-
+require(['common','news','loadueditor'],function(){
+       
         //显示列表下拉菜单
         $(document).on('click','.am-dropdown',function(){
 
             $(this).dropdown('open') 
         })
-        
-        //加载编辑器
-        require(['loadueditor'],function(){
-
-        })
+       // require(['loadueditor'])
+      
 
 })
 

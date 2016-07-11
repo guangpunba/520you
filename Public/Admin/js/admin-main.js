@@ -1,14 +1,10 @@
-require(['layer','common','account'],function(layer){
+require(['common','account'],function(){
    
   
     
     
 
-    //加载layer样式表
-    layer.config({
-        path: jsUrl+'/libs/layer/'
-
-    });
+    
     
     
     

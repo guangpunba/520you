@@ -76,14 +76,14 @@
         <li><a href="<?php echo U('Admins/index');?>"><span class="am-icon-user"></span> 账号管理</a></li>
         <li class="admin-parent">
           <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-cogs"></span> 网站配置 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-          <ul class="am-list am-collapse admin-sidebar-sub am-out" id="collapse-nav">
+          <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav">
             <li><a href="<?php echo U('Config/index');?>" class="am-cf"><span class="am-icon-check"></span> 系统信息<span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li>
             <li><a href="admin-help.html"><span class="am-icon-puzzle-piece"></span> 网站配置信息</a></li>
           </ul>
         </li>
 		<li class="admin-parent">
           <a class="am-cf" data-am-collapse="{target: '#nav-msg'}"><span class="am-icon-comments"></span> 消息管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-          <ul class="am-list am-collapse admin-sidebar-sub am-in" id="nav-msg">
+          <ul class="am-list am-collapse admin-sidebar-sub" id="nav-msg">
           	<?php if($_SESSION['groupid']== 1 ): ?><li><a href="<?php echo U('AdminsMsg/index');?>" class="am-cf"><span class="am-icon-envelope"></span> 管理员消息推送</a></li><?php endif; ?>
             	<li><a href="admin-help.html"><span class="am-icon-envelope-o"></span> 会员消息推送</a></li>
            

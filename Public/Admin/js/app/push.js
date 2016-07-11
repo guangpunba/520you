@@ -3,7 +3,7 @@
  */
 /* 推送 */
 
-define(['jquery','socketIO'],function($,io){
+define(['jquery','http://cdn.bootcss.com/socket.io/1.3.7/socket.io.js'],function($,io){
 
 
     // 连接服务端

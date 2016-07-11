@@ -1,1 +1,0 @@
-define(["jquery"],function(n){var e=function(e,t){n.ajax({url:e,data:t,type:"POST",beforeSend:function(){n("#listInfo").empty(),n("#loading").show()},complete:function(){n("#loading").hide()},success:function(e){n("#listInfo").html(e)}})};return e});

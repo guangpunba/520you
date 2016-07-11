@@ -12,8 +12,8 @@
   <link rel="icon" type="image/png" href="__IMG__/i/favicon.png">
   <link rel="apple-touch-icon-precomposed" href="__IMG__/i/app-icon72x72@2x.png">
   <meta name="apple-mobile-web-app-title" content="芝士大学" />
-  <link rel="stylesheet" href="__CSS__/amazeui.min.css"/>
-  <link rel="stylesheet" href="__CSS__/admin.css">
+
+  <link rel="stylesheet" href="__CSS__/main.css">
   <!--[if lte IE 9]>
   <p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
     以获得更好的体验！</p>
@@ -35,7 +35,7 @@
   <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
 
     <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
-      <li><a href="javascript:;">您好：{$Think.session.username}</a></li>
+      <li><a href="javascript:;">{$cmd}您好：{$Think.session.username}</a></li>
       <li><a href="{:U('adminsMsg/index')}?userid={$Think.session.userid}"><span class="am-icon-envelope-o"></span> 收件箱 <span class="am-badge am-badge-warning" id='msgCounts'>{$count|default="20"}</span></a></li>
       <li class="am-dropdown" data-am-dropdown>
         <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">

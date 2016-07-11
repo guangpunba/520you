@@ -1,1 +1,1 @@
-define(["layer","getAjaxList"],function(e,n){$("#searchBtn").on("click",function(){var i=$.trim($("input[name=keyword]").val());return""==i||"undefined"==i?(e.msg("请输入你要查询的内容"),!1):void n(_APP+"/News/getSearchList",{keyword:i})})});
+define(["layer","getAjaxList"],function(e,t){$("#searchBtn").on("click",function(){var n=$.trim($("input[name=keyword]").val());if(n==""||n=="undefined")return e.msg("请输入你要查询的内容"),!1;t(_APP+"/News/getSearchList",{keyword:n})})});

@@ -7,7 +7,7 @@ define(['ueditorConfig','ueditor'],function(){
     
     var newue = function(){
                   
-            <!-- 实例化编辑器 -->
+
             editor =  UE.getEditor('ueditor',{
                 toolbars: [
                     [ 'source', 'undo',             'redo','fontfamily','fontsize','forecolor','backcolor','indent','lineheight','|','justifyleft','justifyright','justifycenter','justifyjustify','horizontal','time','date'],

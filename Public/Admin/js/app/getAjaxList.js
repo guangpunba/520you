@@ -21,7 +21,7 @@ define(['jquery'],function($){
                
                 $('#listInfo').empty();
                 $('#loading').show();
-              
+                
             },
             complete:function(XMLHttpRequest){
                

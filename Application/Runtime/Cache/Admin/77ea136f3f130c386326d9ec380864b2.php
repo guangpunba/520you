@@ -24,16 +24,19 @@
 
 <header class="am-topbar admin-header">
   <div class="am-topbar-brand">
-    <strong>芝士大学</strong> <small>后台管理模板</small>
+    <strong>芝士大学</strong> <small id="online_box">后台管理模板</small>
   </div>
-
+  
+  <!-- <button class="am-btn am-btn-default" id='send'>推送</button>
+   
+  <center id="online_box"></center> -->
   <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
 
   <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
 
     <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
       <li><a href="javascript:;">您好：<?php echo (session('username')); ?></a></li>
-      <li><a href="javascript:;"><span class="am-icon-envelope-o"></span> 收件箱 <span class="am-badge am-badge-warning">5</span></a></li>
+      <li><a href="<?php echo U('adminsMsg/index');?>?userid=<?php echo (session('userid')); ?>"><span class="am-icon-envelope-o"></span> 收件箱 <span class="am-badge am-badge-warning" id='msgCounts'><?php echo ((isset($count) && ($count !== ""))?($count):"20"); ?></span></a></li>
       <li class="am-dropdown" data-am-dropdown>
         <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
           <span class="am-icon-users"></span> 管理员 <span class="am-icon-caret-down"></span>
@@ -47,7 +50,8 @@
       
     </ul>
   </div>
-</header> 
+</header>
+<input type="hidden" value="<?php echo (session('userid')); ?>" id='uid'> 
 
 <div class="am-cf admin-main">
   <!-- sidebar start -->
@@ -72,13 +76,19 @@
         <li><a href="<?php echo U('Admins/index');?>"><span class="am-icon-user"></span> 账号管理</a></li>
         <li class="admin-parent">
           <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-cogs"></span> 网站配置 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-          <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+          <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav">
             <li><a href="<?php echo U('Config/index');?>" class="am-cf"><span class="am-icon-check"></span> 系统信息<span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li>
             <li><a href="admin-help.html"><span class="am-icon-puzzle-piece"></span> 网站配置信息</a></li>
-          
           </ul>
         </li>
-
+		<li class="admin-parent">
+          <a class="am-cf" data-am-collapse="{target: '#nav-msg'}"><span class="am-icon-comments"></span> 消息管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+          <ul class="am-list am-collapse admin-sidebar-sub" id="nav-msg">
+          	<?php if($_SESSION['groupid']== 1 ): ?><li><a href="<?php echo U('AdminsMsg/index');?>" class="am-cf"><span class="am-icon-envelope"></span> 管理员消息推送</a></li><?php endif; ?>
+            	<li><a href="admin-help.html"><span class="am-icon-envelope-o"></span> 会员消息推送</a></li>
+           
+          </ul>
+        </li>
       </ul>
 
       <div class="am-panel am-panel-default admin-sidebar-panel">
@@ -174,9 +184,11 @@
 <!-- [if (gte IE 9)|!(IE)]>>
 <script src="/520you/Public/Admin/dist/js/libs/jquery.min.js"></script>
 <![endif] -->
+
 <script type="text/javascript">
   var jsUrl = '/520you/Public/Admin/dist/js';
   var _APP  = '/520you/index.php/Admin';
+
 </script> 
 
 
@@ -191,8 +203,8 @@
 <![endif] -->
 
 
-
-<script type="text/javascript" data-main='/520you/Public/Admin/dist/js/admin-main.js' src="/520you/Public/Admin/dist/js/libs/require.js"></script>
 <script type="text/javascript" src="/520you/Public/Admin/dist/js/libs/require_config.js"></script>
+<script type="text/javascript" data-main='/520you/Public/Admin/dist/js/admin-main.js' src="/520you/Public/Admin/dist/js/libs/require.js"></script>
+
 </body>
 </html>

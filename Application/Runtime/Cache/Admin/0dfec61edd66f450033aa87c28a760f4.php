@@ -9,8 +9,8 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp" />
   <link rel="alternate icon" type="image/png" href="/520you/Public/Admin/dist/images/i/favicon.png">
-  <link rel="stylesheet" href="/520you/Public/Admin/dist/css/amazeui.min.css"/>
-  <link rel="stylesheet" href="/520you/Public/Admin/dist/css/admin.css"/>
+
+  <link rel="stylesheet" href="/520you/Public/Admin/dist/css/main.css"/>
   <style>
     .header {
       text-align: center;
@@ -92,7 +92,7 @@
   var _APP  = '/520you/index.php/Admin';
 </script>
 
-<script type="text/javascript" src="/520you/Public/Admin/dist/js/libs/require_config.js"></script>
+<!-- <script type="text/javascript" src="/520you/Public/Admin/dist/js/libs/require_config.js"></script> -->
 <script type="text/javascript" src="/520you/Public/Admin/dist/js/libs/require.js" data-main='/520you/Public/Admin/dist/js/login-main.js' ></script>
 
 </body>

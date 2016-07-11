@@ -12,6 +12,7 @@ class NewsController extends IndexController {
 	//加载新闻列表
 	public function getNewsList(){
 		$news = D('news');
+	
 		$list = $news->getNewsList();
 		//分页
 		if(false !== $list){

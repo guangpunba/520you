@@ -1,1 +1,1 @@
-define(["cookie","base64"],function(){function e(){var e=new Base64,o=$.cookie("username"),n=$.cookie("psw");(null!=o||void 0!=o)&&($("#remember-me").attr("checked",!0),$("#username").val(o),$("#password").val(e.decode(n)))}return e});
+define(["cookie","base64"],function(){function e(){var e=new Base64,t=$.cookie("username"),n=$.cookie("psw");if(t!=null||t!=undefined)$("#remember-me").attr("checked",!0),$("#username").val(t),$("#password").val(e.decode(n))}return e});

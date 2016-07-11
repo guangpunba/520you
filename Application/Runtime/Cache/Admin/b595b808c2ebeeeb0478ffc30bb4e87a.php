@@ -12,8 +12,8 @@
   <link rel="icon" type="image/png" href="/520you/Public/Admin/dist/images/i/favicon.png">
   <link rel="apple-touch-icon-precomposed" href="/520you/Public/Admin/dist/images/i/app-icon72x72@2x.png">
   <meta name="apple-mobile-web-app-title" content="芝士大学" />
-  <link rel="stylesheet" href="/520you/Public/Admin/dist/css/amazeui.min.css"/>
-  <link rel="stylesheet" href="/520you/Public/Admin/dist/css/admin.css">
+
+  <link rel="stylesheet" href="/520you/Public/Admin/dist/css/main.css">
   <!--[if lte IE 9]>
   <p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
     以获得更好的体验！</p>
@@ -58,7 +58,7 @@
   <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
     <div class="am-offcanvas-bar admin-offcanvas-bar">
       <ul class="am-list admin-sidebar-list">
-        <li><a href="admin-index.html"><span class="am-icon-home"></span> 首页</a></li>
+        <li><a href="<?php echo U('Index/index');?>"><span class="am-icon-home"></span> 首页</a></li>
         <!-- <li class="admin-parent">
           <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span> 网站配置 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
           <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
@@ -76,14 +76,14 @@
         <li><a href="<?php echo U('Admins/index');?>"><span class="am-icon-user"></span> 账号管理</a></li>
         <li class="admin-parent">
           <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-cogs"></span> 网站配置 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-          <ul class="am-list am-collapse admin-sidebar-sub am-out" id="collapse-nav">
+          <ul class="am-list am-collapse admin-sidebar-sub" id="collapse-nav">
             <li><a href="<?php echo U('Config/index');?>" class="am-cf"><span class="am-icon-check"></span> 系统信息<span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li>
             <li><a href="admin-help.html"><span class="am-icon-puzzle-piece"></span> 网站配置信息</a></li>
           </ul>
         </li>
 		<li class="admin-parent">
           <a class="am-cf" data-am-collapse="{target: '#nav-msg'}"><span class="am-icon-comments"></span> 消息管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-          <ul class="am-list am-collapse admin-sidebar-sub am-in" id="nav-msg">
+          <ul class="am-list am-collapse admin-sidebar-sub" id="nav-msg">
           	<?php if($_SESSION['groupid']== 1 ): ?><li><a href="<?php echo U('AdminsMsg/index');?>" class="am-cf"><span class="am-icon-envelope"></span> 管理员消息推送</a></li><?php endif; ?>
             	<li><a href="admin-help.html"><span class="am-icon-envelope-o"></span> 会员消息推送</a></li>
            
@@ -390,7 +390,7 @@
 <![endif] -->
 
 
-<script type="text/javascript" src="/520you/Public/Admin/dist/js/libs/require_config.js"></script>
+<!-- <script type="text/javascript" src="/520you/Public/Admin/dist/js/libs/require_config.js"></script> -->
 <script type="text/javascript" data-main='/520you/Public/Admin/dist/js/index-main.js' src="/520you/Public/Admin/dist/js/libs/require.js"></script>
 
 </body>

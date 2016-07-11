@@ -1,1 +1,0 @@
-define(["jquery","layer","cookie","base64"],function(e){function o(){var o=new Base64,r=e.cookie("username"),a=e.cookie("psw");(null!=r||void 0!=r)&&(e("#remember-me").attr("checked",!0),e("#username").val(r),e("#password").val(o.decode(a)))}return o});

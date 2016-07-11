@@ -1,8 +1,4 @@
-/*弹出对话框页面样式组件
-*/
 
-/*reset
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,46 +13,34 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     outline: 0;
     font-size: 100%;
 }
-
 body {
     line-height: 1;
 }
-
 ol, ul {
     list-style: none;
 }
-
 blockquote, q {
     quotes: none;
 }
-
 ins {
     text-decoration: none;
 }
-
 del {
     text-decoration: line-through;
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-/*module
-*/
 body {
     background-color: #fff;
     font: 12px/1.5 sans-serif, "宋体", "Arial Narrow", HELVETICA;
     color: #646464;
 }
-
-/*tab*/
 .tabhead {
     position: relative;
     z-index: 10;
 }
-
 .tabhead span {
     display: inline-block;
     padding: 0 5px;
@@ -68,21 +52,17 @@ body {
     cursor: pointer;
     *margin-right: 5px;
 }
-
 .tabhead span.focus {
     height: 31px;
     border-bottom: none;
     background: #fff;
 }
-
 .tabbody {
     position: relative;
     top: -1px;
     margin: 0 auto;
     border: 1px solid #ccc;
 }
-
-/*button*/
 a.button {
     display: block;
     text-align: center;
@@ -94,7 +74,6 @@ a.button {
     color: #838383;
     background: url(../../themes/default/images/icons-all.gif) no-repeat;
 }
-
 a.button:hover {
     background-position: 0 -30px;
 }
